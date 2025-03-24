@@ -15,7 +15,7 @@ apt update -y
 apt upgrade -y
 apt-get update -y
 apt-get upgrade -y
-pip3 install requests --upgrade
+pip3 install requests --upgrade -y
 apt install python -y
 apt install python
 apt install python2 -y
@@ -24,17 +24,17 @@ apt install wget -y
 apt install lolcat -y
 pip install lolcat
 apt-get install lolcat -y
-pip install install --upgrade pip
+pip install install --upgrade pip -y
 pip3 install requests --upgrade
 pip3 install requests[socks]
 pip3 install stem
-pip3 install instagram-py
+pip3 install instagram-py -y
 apt install tor -y
 cd 
 wget -O ~/instapy-config.json "https://git.io/v5DGy"
 cd /data/data/com.termux/files/usr/etc/tor
 rm -rf torrc
-cd $HOME/venom-instagram-bruteforce
+cd $HOME/venom-instagram-bruteforce 
 cp -r torrc /data/data/com.termux/files/usr/etc/tor
 cd
 tor
